@@ -1,4 +1,7 @@
-BL_T0001
-========
+## BLELabs Tutorial #0001 - Source Code ##
 
-Sourcecode for Tutorial about starting with the BLE112-Protostick under Windows
+#### BLELabs BLE112-Protostick - Erste Schritte unter Windows ####
+
+Das Tutorial findest du [hier](http://www.blelabs.com/blog/category/tutorials) in unserem Blog.
+
+*The english version is coming soon.*
