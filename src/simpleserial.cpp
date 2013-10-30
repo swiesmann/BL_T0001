@@ -78,7 +78,6 @@ int SimpleSerial::ReadBleMessage() {
     uint32 bytes_read;
     const struct ble_msg *api_msg;
     struct ble_header api_header;
-    // TODO(simon): try "uint8"
     unsigned char data[256];    // enough for BLE
 
 
