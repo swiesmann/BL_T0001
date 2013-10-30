@@ -45,7 +45,8 @@ int main(int argc, char* argv[]) {
     // workaround for eclipse on windows
     solveThisIssue();
 
-    printf(">> Bluegiga Demo application to scan devices - brought to you by BLELabs <<\n");
+    printf(">> Bluegiga Demo application to scan devices"
+           "- brought to you by BLELabs <<\n");
 
     // we expect at least one input parameter (serial interface)
     if (argc < 2) {
@@ -99,7 +100,8 @@ int main(int argc, char* argv[]) {
 }
 
 
-// Eclipse Auto Formatter fails after setvbuf line, that's why these statements are at the end of the file
+// Eclipse Auto Formatter fails after setvbuf line, that's why these statements
+// are at the end of the file
 /**
  * @brief workaround for eclipse on windows (http://wiki.eclipse.org/CDT/User/FAQ#Eclipse_console_does_not_show_output_on_Windows)
  */
