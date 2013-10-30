@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-#include "cmd_def.h"
+#include "../inc/cmd_def.h"
 
 
 void (*bglib_output)(uint8 len1,uint8* data1,uint16 len2,uint8* data2)=0;    

@@ -1,11 +1,11 @@
-## BLELabs Tutorial #0001 - Source Code ##
+## BLELabs Tutorial #0001 - cross-platform port ##
 
-#### BLELabs BLE112-Protostick - Erste Schritte unter Windows ####
+The original tutorial (in German) is at the [BLELabs website](http://www.blelabs.com/blog/category/tutorials). My primary development platform is Linux. Instead of porting it to Linux I decided to make it cross platform. With great cross-platform libraries available like [Boost](http://www.boost.org/) it made no sense make a port to another single platform.
 
-Das Tutorial findest du [hier](http://www.blelabs.com/blog/category/tutorials) in unserem Blog.
+The tutorial follows Google's [C++ style guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml).
 
-*The english version is coming soon.*
+*The following picture belongs to BLELabs.*
+![Hardware setup][setup]
+[setup]: http://www.blelabs.com/blog/wp-content/uploads/2013/07/BL_T0001_Aufbau.jpg "Tutorial setup"
 
-![Hardware Aufbau][aufbau]
 
-[aufbau]: http://www.blelabs.com/blog/wp-content/uploads/2013/07/BL_T0001_Aufbau.jpg "Tutorial Aufbau"

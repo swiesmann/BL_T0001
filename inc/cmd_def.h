@@ -47,9 +47,9 @@ struct ble_header
 };
 struct ble_msg
 {
-    struct ble_header    hdr;
-    uint32               params;
-    ble_cmd_handler       handler;    
+    struct ble_header  hdr;
+    uint32             	params;
+    ble_cmd_handler     handler;
 };       
 
 const struct ble_msg * ble_find_msg_hdr(struct ble_header hdr);
