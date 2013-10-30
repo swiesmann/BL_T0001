@@ -34,6 +34,7 @@
 namespace bio = ::boost::asio;
 typedef ::bio::serial_port_base bio_spb;
 
+void solveThisIssue();
 
 void print_help() {
     printf("\tUsage: BL_T0001 COM-port\n");
@@ -41,6 +42,11 @@ void print_help() {
 
 
 int main(int argc, char* argv[]) {
+    // workaround for eclipse on windows
+    solveThisIssue();
+
+    printf(">> Bluegiga Demo application to scan devices - brought to you by BLELabs <<\n");
+
     // we expect at least one input parameter (serial interface)
     if (argc < 2) {
         print_help();
@@ -90,4 +96,14 @@ int main(int argc, char* argv[]) {
         fprintf(stderr, "Error: %s \n", e.what());
         return 1;
     }
+}
+
+
+// Eclipse Auto Formatter fails after setvbuf line, that's why these statements are at the end of the file
+/**
+ * @brief workaround for eclipse on windows (http://wiki.eclipse.org/CDT/User/FAQ#Eclipse_console_does_not_show_output_on_Windows)
+ */
+inline void solveThisIssue() {
+    setvbuf(stdout, NULL, _IONBF, 0);
+    setvbuf(stderr, NULL, _IONBF, 0);
 }

@@ -8,4 +8,3 @@ The project files for QtCreator are included and the code follows Google's [C++ 
 ![Hardware setup][setup]
 [setup]: http://www.blelabs.com/blog/wp-content/uploads/2013/07/BL_T0001_Aufbau.jpg "Tutorial setup"
 
-
