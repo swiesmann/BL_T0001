@@ -23,6 +23,16 @@
  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
+ *
+ * Resources that were helpful for creating this class:
+ * - http://www.webalice.it/fede.tft/serial_port/serial_port.html
+ * - http://www.college-code.com/blog/wp-content/uploads/2008/11/boost_serial_port_demo.cpp
+ * - http://www.ridgesolutions.ie/index.php/2012/12/13/boost-c-read-from-serial-port-with-timeout-example/
+ * - http://www.gamedev.net/blog/950/entry-2249317-a-guide-to-getting-started-with-boostasio/
+ * - http://stackoverflow.com/questions/6672724/boost-asio-socket-read-n-bytes-not-more-not-less-and-wait-until-they-come-or-tim
+ * - http://stackoverflow.com/questions/7783237/sending-raw-data-with-write-in-boostasio
+ * - http://stackoverflow.com/questions/6866078/how-to-send-raw-binary-data-using-boostasio
+ *
  */
 
 
